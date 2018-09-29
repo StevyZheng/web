@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+FILE_PATH_FIELD_DIRECTORY = './log_files'
 
 # Application definition
 
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'manager',
     'user',
+    'logAnalysis',
 ]
 
 MIDDLEWARE = [
